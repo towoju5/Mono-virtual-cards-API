@@ -1,0 +1,36 @@
+{
+    "name": "towoju5/mono-card-issuance",
+    "description": "Instantly issue virtual cards (USD/Naira) to your customers",
+    "keywords": [
+        "mono",
+        "virtual card",
+        "zinari",
+        "api"
+    ],
+    "homepage": "https://towoju.com.ng",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Emmanuel Towoju",
+            "homepage": "https://towoju.com.ng"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8",
+        "squizlabs/php_codesniffer": "~2.6",
+        "friendsofphp/php-cs-fixer": "~1.12"
+    },
+    "autoload": {
+        "psr-4": { "Towoju5\\MonoCards\\" : "lib/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Towoju5\\MonoCards\\" : "test/" }
+    }
+}
